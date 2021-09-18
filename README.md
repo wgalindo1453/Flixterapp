@@ -20,10 +20,14 @@ Flixster is an app that allows users to browse movies from the [The Movie Databa
 - [ ] Apply data binding for views to help remove boilerplate code. (1 point)
 - [ ] Add a rounded corners for the images using the Glide transformations. (1 point)
 
+
+
+
 ### App Walkthough GIF
 
+Here's a walkthrough of implemented user stories:
 
-<img src="" width=250><br>
+<img src='walkthroughflixterpart1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### Notes
 
@@ -52,7 +56,7 @@ Accidently deleted the whole file when tried to upload to github.
 
 Here's a walkthrough of implemented user stories:
 
-<img src='SQLiteToDoAppDemo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthroughflixterpart1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### Notes
 Simple application for displaying movie titles and their overviews.
