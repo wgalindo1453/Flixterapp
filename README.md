@@ -50,7 +50,9 @@ Accidently deleted the whole file when tried to upload to github.
 
 ### App Walkthough GIF
 
-<img src="walkthroughflixterpart1.gif" width=250><br>
+Here's a walkthrough of implemented user stories:
+
+<img src='SQLiteToDoAppDemo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### Notes
 Simple application for displaying movie titles and their overviews.
