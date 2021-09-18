@@ -50,7 +50,7 @@ Accidently deleted the whole file when tried to upload to github.
 
 ### App Walkthough GIF
 
-<img src="" width=250><br>
+<img src="walkthroughflixterpart1.gif" width=250><br>
 
 ### Notes
 Simple application for displaying movie titles and their overviews.
