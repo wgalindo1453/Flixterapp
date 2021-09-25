@@ -11,7 +11,8 @@ import com.codepath.asynchttpclient.AsyncHttpClient;
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
 
 import com.codepath.flixster.adapters.MovieAdapter;
-import com.zifeng.flixster.models.Movie;
+import com.codepath.flixterapp.R;
+import com.codepath.flixster.models.Movie;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -18,9 +18,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.codepath.flixster.DetailActivity;
 
-import com.codepath.flixster.R;
 
-import com.zifeng.flixster.models.Movie;
+import com.codepath.flixterapp.R;
+import com.codepath.flixster.models.Movie;
 
 import org.parceler.Parcels;
 

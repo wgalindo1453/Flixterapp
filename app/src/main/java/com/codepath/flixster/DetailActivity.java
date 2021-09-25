@@ -7,12 +7,13 @@ import android.widget.TextView;
 
 import com.codepath.asynchttpclient.AsyncHttpClient;
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
+import com.codepath.flixterapp.R;
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
-import com.zifeng.flixster.models.Movie;
+import com.codepath.flixster.models.Movie;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -21,10 +22,10 @@ import org.parceler.Parcels;
 import okhttp3.Headers;
 
 public class DetailActivity extends YouTubeBaseActivity {
-
-    public static final String YOUTUBE_API_KEY = "AIzaSyBX5yZ0Jvbspga8teEsMyKXB5n-O01dkNQ";
+                                            //AIzaSyBX5yZ0Jvbspga8teEsMyKXB5n-O01dkNQ
+    public static final String YOUTUBE_API_KEY = "AIzaSyCPh8dNbxX-6mmWlJvaVUV5przmty1P_Wk";
     public static final String VIDEOS_URL = "https://api.themoviedb.org/3/movie/%d/videos?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed";
-
+                                                        //%d <--where we put movieid of that particular movie
     TextView tvTitle;
     TextView tvOverview;
     RatingBar ratingBar;
@@ -81,7 +82,7 @@ public class DetailActivity extends YouTubeBaseActivity {
 
             @Override
             public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
-                Log.d("DetailActivity","OnInitializationFailure");
+                Log.e("DetailsActivity", "onInitializationFailure");
             }
         });
     }
