@@ -31,7 +31,7 @@ Here's a walkthrough of implemented user stories:
 
 ### Notes
 
-Accidently deleted the whole file when tried to upload to github.
+Had to change simulator to pixle due to API error with original simulator.
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
